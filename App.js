@@ -8,11 +8,12 @@ import Rotation from './Exo/Animation/Rotation';
 import Carte1 from './Exo/Carte/Carte1';
 import Carte2 from './Exo/Carte/Carte2';
 
+import AppRedux from './Exo/Redux/AppRedux';
+
 export default function App () {
   return (
     <View>
-      <Carte1/>
-      <Carte2 />
+      <AppRedux/>
     </View>
   );
 };
